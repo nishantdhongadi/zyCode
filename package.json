@@ -9,16 +9,9 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
-  "main": "./out/extension.js",
-  "contributes": {
-    "commands": [
-      {
-        "command": "zyCode.helloWorld",
-        "title": "Hello World"
-      }
-    ]
-  },
+  "activationEvents": [
+    "*"
+],
   "scripts": {
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
