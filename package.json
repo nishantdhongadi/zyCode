@@ -1,5 +1,5 @@
 {
-  "name": "zyCode",
+  "name": "zycode",
   "displayName": "zyCode",
   "description": "",
   "version": "0.0.1",
@@ -9,13 +9,13 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": ["onCommand:workbench.action.files.save"],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "zyCode.helloWorld",
-        "title": "Hello World"
+        "command": "zyCode.updatezy",
+        "title": "Update Zy"
       }
     ]
   },
